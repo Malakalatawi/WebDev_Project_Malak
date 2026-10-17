@@ -2,19 +2,53 @@ h1{
    color:black;
    text-align: center;
   background-color: palevioletred; 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
 }
+a{
+text-decoration: underline;
+margin: 0 10px;
+cursor: pointer;
+}
+
 #bgcolour{
       background-color: palegoldenrod;
+      font-size: larger;
 }
-#bgimage{
- background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=codioful-formerly-gradienta-LeG68PrXA6Y-unsplash.jpg");
+
+.boxcolourpink{
+width: 500px;
+height: 300px;
+background-color: pink;
+border-width: 5px;
+border-radius: 10px;
+border-color:  palevioletred;
+border-style: dashed;
+margin: 5px;
+
+
 }
+
 p {
   color: darkorchid;
   text-align: center;
+  font-size: 100%;
 }
 
-#bgtext{
-  color: darkorchid;
-text-decoration: underline;
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:hover{
+  color: darkblue;
+  background-color: white;
+}
+
+a:active{
+  color: hotpink;
 }
