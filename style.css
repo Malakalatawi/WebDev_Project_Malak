@@ -13,10 +13,24 @@ h1{
 p{
 text-align: justify
 }
-
 body {
     background-color: PaleTurquoise;
 }
+
+body {
+    background-image: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.45),
+            rgba(255, 255, 255, 0.45)
+        ),
+        url("https://as1.ftcdn.net/v2/jpg/05/52/95/08/1000_F_552950878_6PCxQNrefrrlICCbZuY3ZoyPNoRXVHos.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 /*--------------------------home--------------------------*/
 a{
@@ -32,16 +46,17 @@ cursor: pointer;
 /*pink box*/
 .boxcolourpink{
 width: 45%;
-height: 300px;
+height: auto;
+margin: 5px;
+padding: 15px;
+font-size: 20px;
+color: black;
 background-color: pink;
 border-width: 5px;
 border-radius: 15px;
 border-color:  palevioletred;
 border-style: dashed;
-margin: 5px;
-padding: 15px;
-font-size: 20px;
-color: black
+
 }
 
 
@@ -53,13 +68,32 @@ color: black
 
 .boxcolourpink h2 {
     color: #9933cc;
-    text-align: center;}
+    font-size: 24px;
+    text-align: center;
+}
+
+.boxcolourpink details {
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+};
+
+.boxcolourpink h3 {
+    font-size: 20px;
+}
 
 .boxcolourpink p {
     color: #9933cc;
     text-align: center;
     line-height: 1.5;
 }
+
+.boxcolourpink {
+    position: relative;
+    background-color: pink;
+    overflow: hidden;
+}
+
 ------------------------
 p {
   color: darkorchid;
