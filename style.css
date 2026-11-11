@@ -10,6 +10,16 @@ h1{
   padding: 5px;
 }
 
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
 p{
 text-align: justify
 }
@@ -23,7 +33,7 @@ body {
             rgba(255, 255, 255, 0.45),
             rgba(255, 255, 255, 0.45)
         ),
-        url("https://as1.ftcdn.net/v2/jpg/05/52/95/08/1000_F_552950878_6PCxQNrefrrlICCbZuY3ZoyPNoRXVHos.jpg");
+        url(https://images.openai.com/static-rsc-4/QLh0QLlOSHQqACZYjVl5LbZOw8nYAD2w7DrjbaEXftjD9rARyB4Cp5ZZXDqqpt-Yg_eBlk9cWgy7X4BzMQukmOzSMf0rhoM0Yg0krw3EDwa_WjyeQ2xdUSaZBGdOuqPDj_8-I-niEMmQrbTX4XOOZU1tJZagXzu2J3Hycrz526QAmk-Clpjm3Ll3TJRQT4bv?purpose=fullsize);
 
     background-size: cover;
     background-position: center;
@@ -37,6 +47,11 @@ a{
 text-decoration: underline;
 margin: 0 10px;
 cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
 
 #bgcolour{
@@ -147,8 +162,16 @@ a:active{
     color: #9933cc;
     font-size: 20px;
     text-align: center;
-    line-height: 1.6;
     margin: 20px 40px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
+}
+article li {
+     color: #9933cc;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
 }
 
 article {
@@ -180,3 +203,11 @@ article h2 {
     padding: 10px;
     border-radius: 10px;
 }
+
+article b {
+     color: #9933cc;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+   
