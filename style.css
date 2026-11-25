@@ -1,4 +1,5 @@
-/*all*/
+/*--------------------------------all-----------------------------------*/
+
 h1{
   color:black;
   text-align: center;
@@ -40,6 +41,57 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/*- Flexbox layout -*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*-Link transition for links home -*/
+
+nav a {
+    transition: 0.3s;
+}
+nav a:hover {
+    color: hotpink;
+    transform: scale(1.1);
+}
+
+
+/*-----@media-------*/
+/* Mobile */
+@media screen and (max-width: 600px) 
+{
+    nav {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 1024px) 
+{
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) 
+{
+    body {
+        font-size: 18px;
+    }
+}
+   
+
 
 
 /*--------------------------home--------------------------*/
@@ -210,4 +262,4 @@ article b {
     text-align: center;
     line-height: 1.6;
 }
-   
+
